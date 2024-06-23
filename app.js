@@ -1,1 +1,10 @@
-// write code here
+let a = 1;
+console.log("statements 1  ","a =", a);
+let b = 2;
+console.log("statements 2  ","a =", a,",b =", b);
+let c = a++;
+console.log("statements 3  ","a =", a,",b =", b,",c =", c);
+let d = ++c;
+console.log("statements 4  ","a =", a,",b =", b,",c =", c,",d =", d);
+let e = ++d + d++ + d;
+console.log("statements 5  ","a =", a,",b =", b,",c =", c,",d =", d,",e =", e);
